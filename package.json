@@ -1,0 +1,47 @@
+{
+	"version": "0.1.0",
+	"license": "MIT",
+	"scripts": {
+		"dev": "snowpack dev",
+		"build": "snowpack build"
+	},
+	"dependencies": {
+		"@apollo/client": "^3.3.15",
+		"graphql": "^15.5.0",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-redux": "^7.2.3",
+		"react-router-dom": "^5.2.0",
+		"redux": "^4.1.0"
+	},
+	"devDependencies": {
+		"@babel/preset-react": "^7.13.13",
+		"@fortawesome/fontawesome-svg-core": "^1.2.35",
+		"@fortawesome/free-regular-svg-icons": "^5.15.3",
+		"@fortawesome/free-solid-svg-icons": "^5.15.3",
+		"@fortawesome/react-fontawesome": "^0.1.14",
+		"@snowpack/plugin-babel": "^2.1.7",
+		"@snowpack/plugin-dotenv": "^2.1.0",
+		"@snowpack/plugin-postcss": "^1.2.2",
+		"@snowpack/plugin-react-refresh": "^2.4.2",
+		"autoprefixer": "^10.2.5",
+		"babel-plugin-import-globals": "^2.0.0",
+		"postcss": "^8.2.13",
+		"redux-devtools-extension": "^2.13.9",
+		"snowpack": "^3.3.5",
+		"tailwindcss": "^2.1.2"
+	},
+	"prettier": {
+		"tabWidth": 2,
+		"semi": false,
+		"useTabs": true,
+		"endOfLine": "lf",
+		"printWidth": 120,
+		"arrowParens": "always"
+	},
+	"browserslist": [
+		">1%",
+		"not dead",
+		"not ie <= 11"
+	]
+}

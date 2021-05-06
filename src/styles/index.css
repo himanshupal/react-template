@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&family=Quicksand&family=Montserrat&family=Belgrano&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+*::-webkit-scrollbar-thumb {
+  /* border: 1px solid #e2e2e2; */
+  /* border-radius: 2px; */
+  background-color: #00f;
+}
+
+table {
+  border-color: #ddd;
+}
+
+td,
+th {
+  padding: 0.25rem;
+  white-space: nowrap;
+}
+
+.belgrano{
+  font-family: 'Belgrano';
+}
+
+.plex{
+  font-family: 'IBM Plex Mono';
+}
+
+.quicksand{
+  font-family: 'Quicksand';
+}
